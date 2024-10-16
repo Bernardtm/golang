@@ -1,0 +1,14 @@
+{
+  "files.autoSave": "onWindowChange",
+  "go.lintOnSave": "file",
+  "go.formatTool": "goimports",
+  "go.testFlags": [
+    "-v"
+  ],
+  "[go]":{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
+}
