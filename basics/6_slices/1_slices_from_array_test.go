@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_slice_from_array(*testing.T) {
+func TestSliceFromArray(*testing.T) {
 	/*
 				var myarray = [length]datatype{values} // An array
 		    myslice := myarray[start:end] // A slice made from the array

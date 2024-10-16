@@ -6,7 +6,7 @@ import (
 )
 
 // Declaring (Creating) Variables - With the := sign
-func Test_walrus(t *testing.T) {
+func TestWalrusOperator(t *testing.T) {
 
   // Note: It is not possible to declare a variable using ":=" without assigning a value to it.
   // 	Can only be used inside functions

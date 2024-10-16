@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_change_element(t *testing.T) {
+func TestChangeElement(t *testing.T) {
 	prices := [3]int{10, 20, 30}
 
 	prices[2] = 50

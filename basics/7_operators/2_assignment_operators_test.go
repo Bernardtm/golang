@@ -40,7 +40,7 @@ func TestModulusAssignment(*testing.T) {
 	fmt.Println(x)
 }
 
-func TestBitwiseAnd(*testing.T) {
+func TestBitwiseAndAssignment(*testing.T) {
 	var x = 5
 	fmt.Printf("x is %b \n", x)   // 101
 	fmt.Printf("3 is %03b \n", 3) // 011
@@ -48,7 +48,7 @@ func TestBitwiseAnd(*testing.T) {
 	fmt.Printf("x now is %03b \n", x) // 001
 }
 
-func TestBitwiseOr(*testing.T) {
+func TestBitwiseOrAssignment(*testing.T) {
 	var x = 5
 	fmt.Printf("x is %b \n", x)   // 101
 	fmt.Printf("3 is %03b \n", 3) // 011
@@ -56,7 +56,7 @@ func TestBitwiseOr(*testing.T) {
 	fmt.Printf("x now is %03b \n", x) // 111
 }
 
-func TestBitwiseXor(*testing.T) {
+func TestBitwiseXorAssignment(*testing.T) {
 	var x = 5
 	fmt.Printf("x is %b \n", x)   // 101
 	fmt.Printf("3 is %03b \n", 3) // 011
@@ -64,14 +64,14 @@ func TestBitwiseXor(*testing.T) {
 	fmt.Printf("x now is %03b \n", x) // 110
 }
 
-func TestRightShift(*testing.T) {
+func TestRightShiftAssignment(*testing.T) {
 	var x = 5
 	fmt.Printf("x is %b \n", x) // 101
 	x >>= 3
 	fmt.Printf("x now is %03b \n", x) // 000
 }
 
-func TestLeftShift(*testing.T) {
+func TestLeftShiftAssignment(*testing.T) {
 	var x = 5
 	fmt.Printf("x is %b \n", x) // 101
 	x <<= 3

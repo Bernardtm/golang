@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_slice_append_element(*testing.T) {
+func TestSliceAppendElement(*testing.T) {
 	myslice1 := []int{1, 2, 3, 4, 5, 6}
 	fmt.Printf("myslice1 = %v\n", myslice1)
 	fmt.Printf("length = %d\n", len(myslice1))
@@ -19,7 +19,7 @@ func Test_slice_append_element(*testing.T) {
 }
 
 // Note: The '...' after slice2 is necessary when appending the elements of one slice to another.
-func Test_slice_append_another_slice(*testing.T) {
+func TestSliceAppendAnotherSlice(*testing.T) {
 	myslice1 := []int{1, 2, 3}
 	myslice2 := []int{4, 5, 6}
 	myslice3 := append(myslice1, myslice2...)

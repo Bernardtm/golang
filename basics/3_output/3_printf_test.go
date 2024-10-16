@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_printf(t *testing.T) {
+func TestPrintf(t *testing.T) {
   var i string = "Hello"
   var j int = 15
 
@@ -24,7 +24,7 @@ General Formatting Verbs
 %T	Prints the type of the value
 %%	Prints the % sign
 */
-func Test_printf_general_formatting_verbs(t *testing.T) {
+func TestPrintfGeneralFormattingVerbs(t *testing.T) {
   var i = 15.5
   var txt = "Hello World!"
 
@@ -53,7 +53,7 @@ Integer Formatting Verbs
 %-4d	Pad with spaces (width 4, left justified)
 %04d	Pad with zeroes (width 4)
 */
-func Test_printf_integer_formatting_verbs(t *testing.T) {
+func TestPrintfIntegerFormattingVerbs(t *testing.T) {
   var i = 15
 
   fmt.Printf("%b\n", i)
@@ -78,7 +78,7 @@ String Formatting Verbs
 %x	Prints the value as hex dump of byte values
 % x	Prints the value as hex dump with spaces
 */
-func Test_printf_string_formatting_verbs(t *testing.T) {
+func TestPrintfStringFormattingVerbs(t *testing.T) {
   var txt = "Hello"
 
   fmt.Printf("%s\n", txt)
@@ -93,7 +93,7 @@ func Test_printf_string_formatting_verbs(t *testing.T) {
 Boolean Formatting Verbs
 %t	Value of the boolean operator in true or false format (same as using %v)
 */
-func Test_printf_boolean_formatting_verbs(t *testing.T) {
+func TestPrintfBooleanFormattingVerbs(t *testing.T) {
   var i = true
   var j = false
 
@@ -109,7 +109,7 @@ Float Formatting Verbs
 %6.2f	Width 6, precision 2
 %g	Exponent as needed, only necessary digits
 */
-func Test_printf_float_formatting_verbs(t *testing.T) {
+func TestPrintfFloatFormattingVerbs(t *testing.T) {
   var i = 3.141
 
   fmt.Printf("%e\n", i)

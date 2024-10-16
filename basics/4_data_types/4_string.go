@@ -9,7 +9,7 @@ import (
   The string data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
 */
 // Tip: The default type for integer is int. If you do not specify a type, the type will be int.
-func Test_string(*testing.T) {
+func TestString(*testing.T) {
 	var txt1 string = "Hello!"
 	var txt2 string
 	txt3 := "World 1"

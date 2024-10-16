@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_access_element(t *testing.T) {
+func TestAccessElement(t *testing.T) {
 	prices := [3]int{10, 20, 30}
 
 	fmt.Println(prices[0])

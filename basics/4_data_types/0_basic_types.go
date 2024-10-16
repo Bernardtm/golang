@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_types(*testing.T) {
+func TestBasicTypes(*testing.T) {
 	// Data type specifies the size and type of variable values.
 	// Go is statically typed, meaning that once a variable type is defined, it can only store data of that type.
 	/*

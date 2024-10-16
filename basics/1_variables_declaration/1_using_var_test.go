@@ -6,7 +6,7 @@ import (
 )
 
 // Declaring (Creating) Variables - With the var keyword
-func Test_using_var(t *testing.T) {
+func TestUsingVar(t *testing.T) {
   // Can be used inside and outside of functions
   // Variable declaration and value assignment can be done separately
   var variablename int = 1

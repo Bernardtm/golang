@@ -9,7 +9,7 @@ import (
 const PI = 3.14 // type inferred
 
 // The const keyword declares the variable as "constant", which means that it is unchangeable and read-only.
-func Test_constant (t *testing.T) {
+func TestConstant (t *testing.T) {
   const PROGRAM_NAME string = "learning-go"
   fmt.Println(PI)
   fmt.Println(PROGRAM_NAME)

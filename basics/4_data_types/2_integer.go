@@ -12,7 +12,7 @@ import (
   Unsigned integers - can only store non-negative values
 */
 // Tip: The default type for integer is int. If you do not specify a type, the type will be int.
-func Test_signed_integer(*testing.T) {
+func TestSignedInteger(*testing.T) {
 	var x int = 500
 	var y int = -4500
 	fmt.Printf("Type: %T, value: %v", x, x)
@@ -32,7 +32,7 @@ func Test_signed_integer(*testing.T) {
 	*/
 }
 
-func Test_unsigned_integer(*testing.T) {
+func TestUnsignedInteger(*testing.T) {
 	var x uint = 500
 	var y uint = 4500
 	fmt.Printf("Type: %T, value: %v", x, x)

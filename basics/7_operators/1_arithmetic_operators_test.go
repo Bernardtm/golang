@@ -5,43 +5,43 @@ import (
 	"testing"
 )
 
-func Test_addition(*testing.T) {
+func TestAddition(*testing.T) {
 	x := 10
 	y := 2
 	fmt.Println(x + y)
 }
 
-func Test_subtraction(*testing.T) {
+func TestSubtraction(*testing.T) {
 	x := 10
 	y := 2
 	fmt.Println(x - y)
 }
 
-func Test_multiplication(*testing.T) {
+func TestMultiplication(*testing.T) {
 	x := 10
 	y := 2
 	fmt.Println(x * y)
 }
 
-func Test_division(*testing.T) {
+func TestDivision(*testing.T) {
 	x := 10
 	y := 2
 	fmt.Println(x / y)
 }
 
-func Test_modulus(*testing.T) {
+func TestModulus(*testing.T) {
 	x := 8
 	y := 3
 	fmt.Println(x % y)
 }
 
-func Test_increment(*testing.T) {
+func TestIncrement(*testing.T) {
 	x := 10
 	x++
 	fmt.Println(x)
 }
 
-func Test_decrement(*testing.T) {
+func TestDecrement(*testing.T) {
 	x := 10
 	x--
 	fmt.Println(x)

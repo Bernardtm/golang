@@ -1,6 +1,8 @@
 # golang
 Golang study
 
+* Basics part was based and copied from w3schools tutorial
+
 # What is Go?
 Go is a cross-platform, open source programming language
 Go can be used to create high-performance applications

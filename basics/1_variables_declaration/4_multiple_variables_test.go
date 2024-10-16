@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_multiple_variables(t *testing.T) {
+func TestMultipleVariables(t *testing.T) {
 	// Note: If you use the type keyword, it is only possible to declare one type of variable per line.
 	var a, b, c, d int = 1, 3, 5, 7
 

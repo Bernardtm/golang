@@ -15,7 +15,7 @@ Using the []datatype{values} format
 Create a slice from an array
 Using the make() function
 */
-func Test_slice_using_array_like_syntax(*testing.T) {
+func TestSliceUsingArrayLikeSyntax(*testing.T) {
 	/*
 		  In Go, there are two functions that can be used to return the length and capacity of a slice:
 

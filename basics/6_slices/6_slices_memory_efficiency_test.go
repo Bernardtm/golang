@@ -14,7 +14,7 @@ The copy() function creates a new underlying array with only the required elemen
 copy(dest, src)
 The copy() function takes in two slices dest and src, and copies data from src to dest. It returns the number of elements copied.
 */
-func Test_slice_memory_efficiency(*testing.T) {
+func TestSliceMemoryEfficiency(*testing.T) {
 	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
 	// Original slice
 	fmt.Printf("numbers = %v\n", numbers)

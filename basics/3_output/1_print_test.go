@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_print(t *testing.T) {
+func TestPrint(t *testing.T) {
   var i,j string = "Hello","World"
 
   fmt.Print(i)

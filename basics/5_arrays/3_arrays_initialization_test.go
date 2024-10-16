@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_array_initialization(t *testing.T) {
+func TestArrayInitialization(t *testing.T) {
 	arr1 := [5]int{}              //not initialized
 	arr2 := [5]int{1, 2}          //partially initialized
 	arr3 := [5]int{1, 2, 3, 4, 5} //fully initialized
@@ -16,13 +16,13 @@ func Test_array_initialization(t *testing.T) {
 	// Tip: The default value for int is 0, and the default value for string is "".
 }
 
-func Test_array_specific_initialization(t *testing.T) {
+func TestArraySpecificInitialization(t *testing.T) {
 	arr1 := [5]int{1: 10, 2: 40}
 
 	fmt.Println(arr1) // [0 10 40 0 0]
 }
 
-func Test_array_length(t *testing.T) {
+func TestArrayLength(t *testing.T) {
 	arr1 := [4]string{"Volvo", "BMW", "Ford", "Mazda"}
 	arr2 := [...]int{1, 2, 3, 4, 5, 6}
 
