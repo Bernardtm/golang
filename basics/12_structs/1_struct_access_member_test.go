@@ -1,6 +1,9 @@
-package main
+package basics
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 type Person struct {
 	name   string
@@ -9,7 +12,7 @@ type Person struct {
 	salary int
 }
 
-func TestStructAccessMember() {
+func TestStructAccessMember(*testing.T) {
 	var pers1 Person
 	var pers2 Person
 

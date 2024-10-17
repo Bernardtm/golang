@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -23,14 +23,14 @@ func TestMultipleVariables(t *testing.T) {
 	fmt.Println(g)
 	fmt.Println(h)
 
-  // Go Variable Declaration in a Block
-  var (
-    i int
-    j int = 1
-    k string = "hello"
-  )
+	// Go Variable Declaration in a Block
+	var (
+		i int
+		j int    = 1
+		k string = "hello"
+	)
 
- fmt.Println(i)
- fmt.Println(j)
- fmt.Println(k)
+	fmt.Println(i)
+	fmt.Println(j)
+	fmt.Println(k)
 }

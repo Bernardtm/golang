@@ -1,4 +1,4 @@
-package main
+package basics
 
 // A function is a block of statements that can be used repeatedly in a program.
 // A function will be executed by a call to the function.
